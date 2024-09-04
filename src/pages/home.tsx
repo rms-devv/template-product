@@ -4,6 +4,10 @@ import { Block11 } from "../components/block11"
 import { Block12 } from "../components/block12"
 import { Block13 } from "../components/block13"
 import { Block14 } from "../components/block14"
+import { Block15 } from "../components/block15"
+import { Block16 } from "../components/block16"
+import { Block17 } from "../components/block17"
+
 import { Block2 } from "../components/block2"
 import { Block3 } from "../components/block3"
 import { Block4 } from "../components/block4"
@@ -12,6 +16,7 @@ import { Block6 } from "../components/block6"
 import { Block7 } from "../components/block7"
 import { Block8 } from "../components/block8"
 import { Block9 } from "../components/block9"
+
 
 export const Home = () => {
     return (
@@ -30,6 +35,9 @@ export const Home = () => {
             <Block12 />
             <Block13 />
             <Block14 />
+            <Block15 />
+            <Block16 />
+            <Block17 />
         </>
     )
 }

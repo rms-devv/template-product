@@ -32,7 +32,7 @@ export const Block11 = () => {
           <div className="row g-4">
             <div className="col-12 col-md-6 col-lg-3">
               <div className="card-download">
-                <p className="title-32 bold">Rapport financier</p>
+                <p className="title-32 bold">Nom du document</p>
                 <button className="button-download title-16 bold">
                   Télécharger
                 </button>
@@ -40,7 +40,7 @@ export const Block11 = () => {
             </div>
             <div className="col-12 col-md-6 col-lg-3">
               <div className="card-download">
-                <p className="title-32 bold">Rapport financier</p>
+                <p className="title-32 bold">Nom du document</p>
                 <button className="button-download title-16 bold">
                   Télécharger
                 </button>
@@ -48,7 +48,7 @@ export const Block11 = () => {
             </div>
             <div className="col-12 col-md-6 col-lg-3">
               <div className="card-download">
-                <p className="title-32 bold">Rapport financier</p>
+                <p className="title-32 bold">Nom du document</p>
                 <button className="button-download title-16 bold">
                   Télécharger
                 </button>
@@ -56,7 +56,7 @@ export const Block11 = () => {
             </div>
             <div className="col-12 col-md-6 col-lg-3">
               <div className="card-download">
-                <p className="title-32 bold">Rapport financier</p>
+                <p className="title-32 bold">Nom du document</p>
                 <button className="button-download title-16 bold">
                   Télécharger
                 </button>
