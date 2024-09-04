@@ -35,7 +35,7 @@ export const Block13 = () => {
               style={{ gap: "10px" }}
             >
               <div className="card-rendement">
-                <h3 className="title-32 bold">Calculer votre rendement</h3>
+                <h3 className="title-32 bold mb-25 ">Calculer votre rendement</h3>
 
                 <div className="d-flex align-items-center mb-3">
                   <img src={zap} alt="zap" style={{ marginRight: "10px" }} />
@@ -46,7 +46,7 @@ export const Block13 = () => {
 
                 <input
                   type="text"
-                  className="input-card-product w-100 title-18"
+                  className="input-card-product w-100 title-18 mb-25 "
                   placeholder="Entrez votre montant"
                 />
 
@@ -59,7 +59,7 @@ export const Block13 = () => {
                   Chaque durée vous rapportera un bénéfice différent
                 </p>
 
-                <div className="row w-100">
+                <div className="row w-100" style={{marginBottom: "20px"}}>
                   {["1 an", "2 ans", "5 ans"].map((duration, index) => (
                     <div
                       key={duration}
@@ -79,7 +79,7 @@ export const Block13 = () => {
                   ))}
                 </div>
 
-                <button className="button-p-purple title-16 bold w-100">
+                <button className="button-p-purple title-16 bold w-100 mb-25 ">
                   Effectuez ma simulation
                 </button>
 

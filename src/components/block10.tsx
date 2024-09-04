@@ -1,4 +1,3 @@
-import React from 'react';
 import Marquee from "react-fast-marquee";
 
 export const Block10 = () => {
@@ -14,12 +13,12 @@ export const Block10 = () => {
           <div className="col-12 d-flex flex-column flex-md-row justify-content-between text-center text-md-start">
             <div className="col-12 col-lg-5 mb-2 mb-md-0">
               <h2 className="title-40 bold">
-                Titre mettant en avant les avis des clients/collab’
+              Titre mettant en avant les avis des clients/collab’
               </h2>
             </div>
             <div className="col-12 col-lg-5">
               <p className="mb-0 title-18 bold-500">
-                Déscription de maxium 4 lignes
+              Déscription de maxium 4 lignes
               </p>
             </div>
           </div>
@@ -27,40 +26,48 @@ export const Block10 = () => {
       </div>
       <div style={{ overflow: "hidden" }}>
         <Marquee speed={20} gradient={false} style={{ display: "flex" }}>
-          <img
+        <img
             src="https://via.placeholder.com/600x600.png?text=Image+Placeholder"
             alt="Icon"
+                        className="border-r-20"
             style={{
-              width: "33%", // Ajusté pour 3 images visibles à la fois
-              height: "auto",
+              width: "400px",
+              height: "300px",
               marginRight: "20px",
+              padding: "0",
             }}
           />
-          <img
+             <img
             src="https://via.placeholder.com/600x600.png?text=Image+Placeholder"
             alt="Icon"
+                        className="border-r-20"
             style={{
-              width: "33%", // Identique pour chaque image
-              height: "auto",
+              width: "400px",
+              height: "300px",
               marginRight: "20px",
+              padding: "0",
             }}
           />
-          <img
+              <img
             src="https://via.placeholder.com/600x600.png?text=Image+Placeholder"
             alt="Icon"
+                        className="border-r-20"
             style={{
-              width: "33%", // Identique pour chaque image
-              height: "auto",
+              width: "400px",
+              height: "300px",
               marginRight: "20px",
+              padding: "0",
             }}
           />
-          <img
+           <img
             src="https://via.placeholder.com/600x600.png?text=Image+Placeholder"
             alt="Icon"
+                        className="border-r-20"
             style={{
-              width: "33%", // Identique pour chaque image
-              height: "auto",
+              width: "400px",
+              height: "300px",
               marginRight: "20px",
+              padding: "0",
             }}
           />
         </Marquee>
@@ -75,37 +82,45 @@ export const Block10 = () => {
           <img
             src="https://via.placeholder.com/600x600.png?text=Image+Placeholder"
             alt="Icon"
+                        className="border-r-20"
             style={{
-              width: "33%", // Maintien de la cohérence
-              height: "auto",
+              width: "400px",
+              height: "300px",
               marginRight: "20px",
+              padding: "0",
             }}
           />
           <img
             src="https://via.placeholder.com/600x600.png?text=Image+Placeholder"
             alt="Icon"
+                        className="border-r-20"
             style={{
-              width: "33%",
-              height: "auto",
+              width: "400px",
+              height: "300px",
               marginRight: "20px",
+              padding: "0",
             }}
           />
           <img
             src="https://via.placeholder.com/600x600.png?text=Image+Placeholder"
             alt="Icon"
+                        className="border-r-20"
             style={{
-              width: "33%",
-              height: "auto",
+              width: "400px",
+              height: "300px",
               marginRight: "20px",
+              padding: "0",
             }}
           />
           <img
             src="https://via.placeholder.com/600x600.png?text=Image+Placeholder"
+            className="border-r-20"
             alt="Icon"
             style={{
-              width: "33%",
-              height: "auto",
+              width: "400px",
+              height: "300px",
               marginRight: "20px",
+              padding: "0",
             }}
           />
         </Marquee>

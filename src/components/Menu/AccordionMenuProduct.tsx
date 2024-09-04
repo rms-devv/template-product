@@ -41,8 +41,8 @@ const AccordionMenuProduct = () => {
               <p className="title-22 bold mb-0">{item.question}</p>
               <div
                 style={{
-                  width: "83px", 
-                  height: "84px", 
+                  width: "40px", 
+                  height: "40px", 
                   display: "flex",
                   justifyContent: "center",
                   alignItems: "center",
@@ -71,65 +71,10 @@ const AccordionMenuProduct = () => {
                     />
                   </svg>
                 ) : (
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="83"
-                    height="84"
-                    viewBox="0 0 83 84"
-                    fill="none"
-                  >
-                    <g filter="url(#filter0_d_994_7754)">
-                      <circle
-                        cx="41.491"
-                        cy="36.9261"
-                        r="25.3309"
-                        fill="white"
-                      />
-                    </g>
-                    <path
-                      d="M38.3828 45.1826L46.6021 36.926L38.3828 28.6694"
-                      stroke="#757575"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    />
-                    <defs>
-                      <filter
-                        id="filter0_d_994_7754"
-                        x="0.160156"
-                        y="0.595215"
-                        width="82.6602"
-                        height="82.6616"
-                        filterUnits="userSpaceOnUse"
-                        colorInterpolationFilters="sRGB"
-                      >
-                        <feFlood floodOpacity="0" result="BackgroundImageFix" />
-                        <feColorMatrix
-                          in="SourceAlpha"
-                          type="matrix"
-                          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-                          result="hardAlpha"
-                        />
-                        <feOffset dy="5" />
-                        <feGaussianBlur stdDeviation="8" />
-                        <feColorMatrix
-                          type="matrix"
-                          values="0 0 0 0 0.0323264 0 0 0 0 0.0598209 0 0 0 0 0.204167 0 0 0 0.06 0"
-                        />
-                        <feBlend
-                          mode="normal"
-                          in2="BackgroundImageFix"
-                          result="effect1_dropShadow_994_7754"
-                        />
-                        <feBlend
-                          mode="normal"
-                          in="SourceGraphic"
-                          in2="effect1_dropShadow_994_7754"
-                          result="shape"
-                        />
-                      </filter>
-                    </defs>
-                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                  <circle cx="16" cy="16" r="16" transform="rotate(-90 16 16)" fill="white"/>
+                  <path d="M14.0352 21.2148L19.2268 15.9996L14.0352 10.7844" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
                 )}
               </div>
             </div>

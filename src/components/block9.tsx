@@ -127,9 +127,9 @@ export const Block9 = () => {
           <div className="w-100 mt-3">
             <div className="progress" style={{ height: "15px" }}>
               <div
-                className="progress-bar bg-success"
+                className="progress-bar"
                 role="progressbar"
-                style={{ width: `10%`, height: "15px" }}
+                style={{ width: `10%`, height: "15px", backgroundColor: "#65FF90" }}
                 aria-valuenow={10}
                 aria-valuemin={0}
                 aria-valuemax={100}

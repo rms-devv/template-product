@@ -155,6 +155,14 @@ a {
   padding: 100px 0;
 }
 
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mb-25 {
+  margin-bottom: 25px;
+}
+
 .custom-bg-container {
   background: #e7e7e7;
   padding: 60px 0;
@@ -244,7 +252,6 @@ a {
 .card-rendement {
   flex-direction: column;
   align-items: flex-start;
-  gap: 15px;
   flex-shrink: 0;
   padding: 30px;
   display: flex;
@@ -336,6 +343,11 @@ a {
 .card-accordion .response.hide {
   max-height: 0;
   opacity: 0;
+}
+
+.card-accordion.expanded {
+  height: auto;
+  border: 2px solid black !important;
 }
 
 .card-accordion-product {

@@ -3,7 +3,7 @@ export const Block1 = () => {
   return (
     <div
     className="background-detail-product d-flex align-items-center"
-    style={{ minHeight: "100vh" }}
+    style={{ minHeight: "100vh", background: "url(https://via.placeholder.com/1920x1080.png?text=Background+Image) center center/cover no-repeat" }}
   >
     <div
       className="container"
