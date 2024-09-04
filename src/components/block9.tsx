@@ -31,10 +31,10 @@ export const Block9 = () => {
           </button>
         </div>
 
-        <div className="mt-5 w-100">
+        <div className="w-100 mt-50" >
           <div className="row gx-2 gy-3">
             <div
-              className="col-12 col-md-6 col-lg-3 border-r-20 p-inline-0 mb-3"
+              className="col-12 col-md-6 col-lg-3 border-r-20 p-inline-0 "
               data-aos="fade-up"
               data-aos-duration={700}
               data-aos-delay={600}
@@ -51,7 +51,7 @@ export const Block9 = () => {
             </div>
 
             <div
-              className="col-12 col-md-6 col-lg-3 border-r-20 mb-3"
+              className="col-12 col-md-6 col-lg-3 border-r-20 "
               data-aos="fade-up"
               data-aos-duration={700}
               data-aos-delay={700}
@@ -68,7 +68,7 @@ export const Block9 = () => {
             </div>
 
             <div
-              className="col-12 col-md-6 col-lg-3 border-r-20 mb-3"
+              className="col-12 col-md-6 col-lg-3 border-r-20 "
               data-aos="fade-up"
               data-aos-duration={700}
               data-aos-delay={800}
@@ -85,7 +85,7 @@ export const Block9 = () => {
             </div>
 
             <div
-              className="col-12 col-md-6 col-lg-3 border-r-20 mb-3"
+              className="col-12 col-md-6 col-lg-3 border-r-20 "
               data-aos="fade-up"
               data-aos-duration={700}
               data-aos-delay={900}
@@ -106,11 +106,11 @@ export const Block9 = () => {
         </div>
 
         <div
-          className="w-100 border-r-20 d-flex flex-column"
+          className="w-100 border-r-20 d-flex flex-column "
           data-aos="fade-up"
           data-aos-duration={700}
           data-aos-delay={1000}
-          style={{ padding: "30px", backgroundColor: "#E6E6E6" }}
+          style={{ padding: "30px", backgroundColor: "#E6E6E6", marginTop: "8px" }}
         >
           <div className="d-flex flex-column flex-md-row justify-content-between">
             <div className="d-flex flex-column gap-30">
