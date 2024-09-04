@@ -1,3 +1,4 @@
+import React from 'react';
 import Marquee from "react-fast-marquee";
 
 export const Block10 = () => {
@@ -13,12 +14,12 @@ export const Block10 = () => {
           <div className="col-12 d-flex flex-column flex-md-row justify-content-between text-center text-md-start">
             <div className="col-12 col-lg-5 mb-2 mb-md-0">
               <h2 className="title-40 bold">
-              Titre mettant en avant les avis des clients/collab’
+                Titre mettant en avant les avis des clients/collab’
               </h2>
             </div>
             <div className="col-12 col-lg-5">
               <p className="mb-0 title-18 bold-500">
-              Déscription de maxium 4 lignes
+                Déscription de maxium 4 lignes
               </p>
             </div>
           </div>
@@ -30,40 +31,36 @@ export const Block10 = () => {
             src="https://via.placeholder.com/600x600.png?text=Image+Placeholder"
             alt="Icon"
             style={{
-              width: "400px",
-              height: "300px",
+              width: "33%", // Ajusté pour 3 images visibles à la fois
+              height: "auto",
               marginRight: "20px",
-              padding: "0",
             }}
           />
           <img
             src="https://via.placeholder.com/600x600.png?text=Image+Placeholder"
             alt="Icon"
             style={{
-              width: "400px",
-              height: "300px",
+              width: "33%", // Identique pour chaque image
+              height: "auto",
               marginRight: "20px",
-              padding: "0",
             }}
           />
           <img
             src="https://via.placeholder.com/600x600.png?text=Image+Placeholder"
             alt="Icon"
             style={{
-              width: "400px",
-              height: "300px",
+              width: "33%", // Identique pour chaque image
+              height: "auto",
               marginRight: "20px",
-              padding: "0",
             }}
           />
           <img
             src="https://via.placeholder.com/600x600.png?text=Image+Placeholder"
             alt="Icon"
             style={{
-              width: "400px",
-              height: "300px",
+              width: "33%", // Identique pour chaque image
+              height: "auto",
               marginRight: "20px",
-              padding: "0",
             }}
           />
         </Marquee>
@@ -79,40 +76,36 @@ export const Block10 = () => {
             src="https://via.placeholder.com/600x600.png?text=Image+Placeholder"
             alt="Icon"
             style={{
-              width: "400px",
-              height: "300px",
+              width: "33%", // Maintien de la cohérence
+              height: "auto",
               marginRight: "20px",
-              padding: "0",
             }}
           />
           <img
             src="https://via.placeholder.com/600x600.png?text=Image+Placeholder"
             alt="Icon"
             style={{
-              width: "400px",
-              height: "300px",
+              width: "33%",
+              height: "auto",
               marginRight: "20px",
-              padding: "0",
             }}
           />
           <img
             src="https://via.placeholder.com/600x600.png?text=Image+Placeholder"
             alt="Icon"
             style={{
-              width: "400px",
-              height: "300px",
+              width: "33%",
+              height: "auto",
               marginRight: "20px",
-              padding: "0",
             }}
           />
           <img
             src="https://via.placeholder.com/600x600.png?text=Image+Placeholder"
             alt="Icon"
             style={{
-              width: "400px",
-              height: "300px",
+              width: "33%",
+              height: "auto",
               marginRight: "20px",
-              padding: "0",
             }}
           />
         </Marquee>
