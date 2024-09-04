@@ -1,7 +1,11 @@
 import React from "react";
 import signImg from "../assets/logo/sign.png"; // Assurez-vous que ce chemin est correct
+import { BlockData } from "../type/type";
 
-export const Block14 = () => {
+export const Block14: React.FC<BlockData> = ({ block14 }) => {
+  if (!block14 || block14.length === 0) {
+    return null; // Afficher rien ou un message vide si le tableau est vide
+  }
   return (
     <section
       className="d-flex section-120 justify-content-center align-items-center"
@@ -18,7 +22,7 @@ export const Block14 = () => {
       <div
         className="container d-flex justify-content-center pb-r-20"
         style={{
-          backgroundColor: "#E4E4E4",
+          backgroundColor: `#F5F5F5`,
           minHeight: "500px",
           borderRadius: "20px",
           display: "flex",
@@ -29,7 +33,10 @@ export const Block14 = () => {
         <div
           className="col-12 col-lg-3 position-relative border-res-card"
           style={{
-            backgroundColor: "grey",
+            backgroundImage: `url(${block14[0].imageBackground})`,
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            backgroundRepeat: "no-repeat",
             padding: "30px",
             minHeight: "500px",
             color: "white",
@@ -39,7 +46,9 @@ export const Block14 = () => {
           }}
         >
           <h3 className="title-14 bold-500 black">Poste de la personne</h3>
-          <h4 className="title-20 bold black">Poste de la personne Nom & prenom</h4>
+          <h4 className="title-20 bold black">
+            Poste de la personne Nom & prenom
+          </h4>
           <p className="title-14 bold-400 black">
             Parcours de la personne en 3 lignes maximum
           </p>
@@ -63,7 +72,11 @@ export const Block14 = () => {
           <p className="title-16 bold-400">
             Texte de la personne en maximum 6 lignes
           </p>
-          <img src={signImg} alt="sign" className="img-fluid w-50" />
+          <img
+            src={block14[0].imageSignUrl}
+            alt="sign"
+            className="img-fluid w-50"
+          />
         </div>
       </div>
     </section>

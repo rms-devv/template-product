@@ -1,7 +1,12 @@
 import React, { useEffect, useRef } from "react";
 import bgImg from "../assets/placeholder.png";
+import { Block17Item } from "../type/type";
 
-export const Block17 = () => {
+interface Block17Props {
+  block17: Block17Item;
+}
+
+export const Block17: React.FC<Block17Props> = ({ block17 }) => {
   const scrollContainerRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -14,14 +19,13 @@ export const Block17 = () => {
   }, []);
 
   return (
-    <section  style={{ overflow: "hidden", width: "100%" }}>
+    <section style={{ overflow: "hidden", width: "100%" }}>
       <div
         ref={scrollContainerRef}
         style={{
           overflowX: "auto",
           width: "100%",
           display: "flex",
-
         }}
       >
         <div
@@ -41,7 +45,7 @@ export const Block17 = () => {
             }}
           >
             <img
-              src={bgImg}
+              src={block17.images[0]}
               alt="Left Side Product"
               style={{
                 width: "100%",
@@ -61,7 +65,7 @@ export const Block17 = () => {
             }}
           >
             <img
-              src={bgImg}
+              src={block17.images[1]}
               alt="Center Product"
               style={{
                 width: "100%",
@@ -78,11 +82,11 @@ export const Block17 = () => {
             style={{
               minWidth: "30vw",
               flex: "0 0 auto",
-              paddingRight: "20px", 
+              paddingRight: "20px",
             }}
           >
             <img
-              src={bgImg}
+              src={block17.images[2]}
               alt="Right Side Product"
               style={{
                 width: "100%",

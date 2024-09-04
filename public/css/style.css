@@ -1,5 +1,5 @@
 body {
-  font-family: "Inter", sans-serif;
+  font-family: "Manrope", sans-serif !important;
   letter-spacing: -0.03em;
   max-height: 100vh;
 }
@@ -490,10 +490,11 @@ a {
   border-radius: 10px;
   border: 1px solid #000;
   background: transparent;
+  color: black;
 }
 
 .button-download:hover {
-  color: #cbcbcb;
+  color: white;
   background: black;
   border: 1px solid #000;
   transition: 0.3s;

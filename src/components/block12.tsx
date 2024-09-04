@@ -1,6 +1,13 @@
+import { BlockData } from "../type/type";
 import AccordionMenuProduct from "./Menu/AccordionMenuProduct";
 
-export const Block12 = () => {
+export const Block12: React.FC<BlockData> = ({
+  title,
+  description,
+  buttonTitle,
+  redirection,
+  pitch
+}) => {
   return (
     <section className="section-100-0 container " id="professionnels">
       <div className="d-flex justify-content-center">
@@ -11,17 +18,17 @@ export const Block12 = () => {
           data-aos-duration={700}
           data-aos-delay={400}
         >
-          <h3 className="title-18 bold">Pitch du Projet</h3>
-          <h2 className="title-40 bold">
-            Titre mettant en avant la foire aux questions
+          <h3 className="title-18 bold">{pitch}</h3>
+          <h2 className="title-40 bold m-0">
+            {title}
           </h2>
-          <p className="title-16 bold-600">déscription de maximum 2 lignes</p>
+          <p className="title-16 bold-600 m-0">{description}</p>
           <a
-            href="/signup"
+          href={`/${redirection}`}
             className="button-pblack border-r-10 p-20-30"
             style={{ width: "auto" }}
           >
-            Call to action
+            {buttonTitle}
           </a>
         </div>
       </div>

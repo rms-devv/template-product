@@ -1,7 +1,12 @@
 import { useState } from "react";
 import zap from "../assets/logo/zap.svg";
+import { BlockData } from "../type/type";
 
-export const Block13 = () => {
+export const Block13: React.FC<BlockData> = ({
+  title,
+  miniTitle,
+  description,
+}) => {
     const [selectedDuration, setSelectedDuration] = useState("");
     const handleSelect = (experience: string) => {
         setSelectedDuration(experience);
@@ -17,14 +22,14 @@ export const Block13 = () => {
               data-aos-delay={300}
             >
               <div className=" gap-10 title-18 bold">
-                Mini title block 13
+               {miniTitle}
               </div>
               <h2 className="text-center text-lg-start title-50 bold">
-              Titre mettant en avant le potentiel de l’invest
+            {title}
               </h2>
 
               <p className="title-16 bold-400 text-center text-lg-start">
-              Description de 5 lignes maximum
+           {description}
               </p>
             </div>
             <div
